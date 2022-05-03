@@ -1,0 +1,13 @@
+int main()
+{
+    int     i;
+    double  f;
+    char    s;
+    
+    printf("please input a integer \n");
+    scanf("%d",&i);
+    
+    printf(" your input integer= %d\n",i);
+    
+    return 0;
+}
