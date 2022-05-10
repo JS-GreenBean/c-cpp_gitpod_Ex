@@ -1,15 +1,10 @@
-#include <stdio.h>
+x = int(input("輸入一個圓半徑"))
+pi = 3.1415926535897932384626433832795
+if x >= 0 :
+    y = pi*(x**2)
+    print("面积=",y)
+    z = 2*pi*x
+    print("周长=",z)
+else :
+    print("圓半徑小于零！")
 
-int main()
-{
-    int     i >= 0 ;
-
-    printf(" please input r \n");
-    scanf("%d",i);
-    printf(" your input r = %d\n",i);
-    
-    printf(" your input 圆周长 = %d\n", i * 2 * 3.1415926535897932384626433832795 );
-
-
-}
-    
