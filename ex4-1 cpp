@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int x,y;
+    int x,y,z;
     int bool_value;
     
     printf("please input x:\n");
@@ -16,5 +16,8 @@ int main(){
     }else{
         printf(" x == y \n");
     }
+    
+    z = (x > y)? x : y;
+    printf("z = %d \n",z);
     return 0;
-}
+    }
